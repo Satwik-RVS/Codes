@@ -1,0 +1,26 @@
+The program must accept an array of N unique integers and an integer K as the input. The
+value of N is always divisible by K. The program must split the given array into N/K subarrays
+of equal size K. Then the program must sort the subarrays based on the first integer. Finally,
+the program must print the revised array as the output.
+
+Boundary Condition(s):
+1 <= K <= N <= 1000
+1 <= Each integer value <= 10^5
+
+Input Format:
+The first line contains N.
+The second line contains N integers separated by a space.
+The third line contains K.
+
+Output Format:
+The first line contains the revised N integers separated by a space.
+
+Example Input/Output:
+
+Input:
+9
+30 38 33 50 55 59 10 15 12
+3
+
+Output:
+10 15 12 30 38 33 50 55 59
